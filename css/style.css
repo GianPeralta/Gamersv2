@@ -5859,7 +5859,10 @@ button.bg-dark:focus {
 .align-self-stretch {
   -ms-flex-item-align: stretch !important;
   -ms-grid-row-align: stretch !important;
-  align-self: stretch !important; }
+  align-self: stretch !important;
+  border: 6px solid;
+  border-color: #ee3434;
+}
 
 @media (min-width: 576px) {
   .flex-sm-row {
@@ -8161,7 +8164,7 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
-  color: #333333;
+  color: #fff;
   font-weight: 900; 
   font-size: 50px;
 }
@@ -8596,13 +8599,13 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #c8a97e;
-    border: 1px solid #c8a97e;
+    background: #ee3434;
+    border: 1px solid #fff;
     color: #fff; }
     .btn.btn-primary:hover {
-      border: 1px solid #c8a97e;
+      border: 1px solid #fff;
       background: transparent;
-      color: #c8a97e; }
+      color: #ee3434; }
     .btn.btn-primary.btn-outline-primary {
       border: 1px solid #c8a97e;
       background: transparent;
@@ -8797,7 +8800,7 @@ h2 .highlight{
       position: relative;
       display: inline-block;
       border: 1px solid transparent;
-      background: #fff;
+      background: #ee3434;
       width: 16.6%;
       -webkit-border-radius: 0;
       -moz-border-radius: 0;
@@ -8814,20 +8817,20 @@ h2 .highlight{
         margin: 0 auto;
         border-style: solid;
         border-width: 10px 10px 0 10px;
-        border-color: #c8a97e transparent transparent transparent;
+        border-color: #ee3434 transparent transparent transparent;
         opacity: 0; }
       .ftco-search .nav-pills .nav-link:hover {
-        background: #c09d6c;
-        color: #fff; }
+        background: #fff;
+        color: #ee3434; }
       .ftco-search .nav-pills .nav-link.active {
-        color: #fff;
+        color: #ee3434;
         -moz-transition: all 0.3s ease;
         -o-transition: all 0.3s ease;
         -webkit-transition: all 0.3s ease;
         -ms-transition: all 0.3s ease;
         transition: all 0.3s ease;
         border: 1px solid transparent;
-        background: #c8a97e; }
+        background: #1d1c1c; }
         .ftco-search .nav-pills .nav-link.active:after {
           opacity: 1; }
         @media (max-width: 767.98px) {
@@ -8867,7 +8870,7 @@ h2 .highlight{
   .menus .text {
     width: 50%;
     padding: 30px 20px;
-    border: 1px solid #e6e6e6; }
+     }
     @media (max-width: 767.98px) {
       .menus .text {
         width: 100%; } }
@@ -8891,7 +8894,7 @@ h2 .highlight{
         transition: all 0.3s ease; }
     .menus .text p {
       margin-bottom: 0;
-      color: rgba(0, 0, 0, 0.8); }
+      color: #ee3434; }
   .menus .menu-img {
     width: 50%; }
     @media (max-width: 767.98px) {
