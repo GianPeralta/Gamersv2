@@ -9088,7 +9088,10 @@ textarea.form-control {
 .ftco-section {
   padding: 7em 0;
   position: relative;
-  background-color: black; }
+  background-color: black;
+  border-top: 5px solid;
+  border-color: #ee3434;
+   }
 
 .ftco-no-pt {
   padding-top: 0; }
