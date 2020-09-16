@@ -1,0 +1,5 @@
+1. redirect('/products/create');
+2. return view('categories.index', ['who' => 'me', 'where' => 'home']);
+3. request('last_name');
+4. Route::get('/create', 'SpeakersController@create');
+5. return view('cars', ['cars' => $cars]);
